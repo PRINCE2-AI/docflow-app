@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "DocFlow Step Capture",
+  "version": "1.0",
+  "description": "Record click interactions for DocFlow workflow automation",
+  "permissions": ["storage", "scripting", "activeTab", "tabs"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "DocFlow Step Capture"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
